@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+            #header {
+                height: 100px;
+                background-color: rgba(0, 0, 0, 0.5);
+                position: relative;
+                overflow: hidden;
+            }
+            img {
+                margin: 24px 0 0 24px;
+            }
+            #bg {
+                position: absolute;
+                top: 0; right: 0; bottom: 0; left: 0;
+                background: url(img/avatar.jpg) no-repeat;
+                /*
+                 * CSS 只有一种注释，不管是多行注释还是单行注释，都必须以 开始、以 结束，中间加入注释内容。
+                 */
+                /* 
+                 * 指定背景图片相对背景区的百分比
+                 *              默认为盒模型的内容区与内边距
+                 */
+                background-size: 100% 100%;
+                z-index: -1;
+                /* Blur with 8px radius */
+                filter: blur(10px);
+            }
+		</style>
+	</head>
+
+	<body>
+        <div id="header">
+            <img src="img/avatar.jpg" width="64px" height="64px" />
+            <div id="bg"></div>
+        </div>
+	</body>
+</html>

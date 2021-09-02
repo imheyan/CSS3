@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'heyan';
+  src:  url('../fonts/heyan.eot?i2rioy');
+  src:  url('../fonts/heyan.eot?i2rioy#iefix') format('embedded-opentype'),
+    url('../fonts/heyan.ttf?i2rioy') format('truetype'),
+    url('../fonts/heyan.woff?i2rioy') format('woff'),
+    url('../fonts/heyan.svg?i2rioy#heyan') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="heyan-"], [class*=" heyan-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'heyan' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heyan-add_circle:before {
+  content: "\e900";
+}
+.heyan-arrow_lift:before {
+  content: "\e901";
+}
+.heyan-check_circle:before {
+  content: "\e902";
+}
+.heyan-close:before {
+  content: "\e903";
+}
+.heyan-favorite:before {
+  content: "\e904";
+}
+.heyan-keyboard_arrow_right:before {
+  content: "\e905";
+}
+.heyan-remove_circle_outline:before {
+  content: "\e906";
+}
+.heyan-shopping_cart:before {
+  content: "\e907";
+}
+.heyan-thumb_down:before {
+  content: "\e908";
+}
+.heyan-thumb_up:before {
+  content: "\e909";
+}
